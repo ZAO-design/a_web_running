@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!-- 宣告此文件為 HTML5 定義 -->
+<html lang="zh-Hant"> <!-- 設定網頁主要語言為繁體中文 -->
+
+<head>
+    <meta charset="UTF-8"> <!-- 設定編碼為 UTF-8，確保中文字能正常顯示不亂碼 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 響應式設計關鍵：讓網頁寬度跟隨裝置螢幕寬度 -->
+    <title>日本鳥取砂丘-攻略指南</title> <!-- 瀏覽器分頁標籤上顯示的標題 -->
+
+    <!-- 引入外部 CSS 樣式表，負責網頁的美化設計 -->
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        .Endorsement {
+            position: absolute;
+            margin-top: 100px;
+            
+        }
+
+        .Endorsement img {
+            width: 200%;
+        }
+
+        #before {
+            width: 300px;
+            margin-top: 163px;
+        }
+
+        #after {
+            width: 300px;
+            height: 300px;
+        }
+
+        #stick {
+            width: 300px;
+            transform: translate(0px, 0px) rotate(0deg);
+            transition: 1.5s;
+        }
+
+        #stick:hover {
+            transform: translate(0px, -0px) rotate(0deg);
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        
+        <div id="after" class="Endorsement"><img src="images\toripy-3 (2).png"></div>
+        <div id="stick" class="Endorsement"><img src="images\toripy-3 (1).png"></div>
+
+
+    </body>
+    <!-- 導覽列區塊 (Navigation) -->
+    <nav>
+        <div class="container"> <!-- 容器：通常用來限制內容寬度並居中 -->
+            <!-- 網站 Logo 或品牌名稱 -->
+            <a href="index.html" class="logo">日本鳥取砂丘</a>
+
+            <!-- 選單項目列表 -->
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">介紹</a></li>
+                <li><a href="courses.html">地址與票價</a></li>
+                <li><a href="tools.html">交通工具</a></li>
+                <li><a href="testimonials.html">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄區塊 (Hero Section)：網頁最上方的視覺焦點 -->
+    <header class="hero">
+        <div class="container">
+            <h1>旅遊指南</h1> <!-- 主標題 -->
+            <p>事先須知、必看重點&週邊景點一篇掌握</p> <!-- 副標題/簡介 -->
+            <br> <!-- 換行 -->
+            <!-- 引導動作按鈕 (Call to Action) -->
+            <a href="about.html" class="btn">查看資訊</a>
+        </div>
+    </header>
+</body>
+
+</html>
